@@ -13,7 +13,7 @@ var menuHoverActive         = true; /* it will change to false if menuActive == 
                                         is false and this true than on hover it will show the menu */
 var menuTextOutColor        = "#777777";
 
-var customPageStart         = true;
+var customPageStart         = false;
 var customPageStartURL      = "#home_layout_1.html";
 var customPageStartSide     = "none";
 var customPageStartType     = "slideshow";
