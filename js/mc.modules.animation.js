@@ -6,7 +6,7 @@
  **/
 
  /* start GENERAL CUSTOMIZATION PROPERTIES */
-var templateBaseURL         = "http://localhost/Hyperion/";/*"http://themes.mediacreed.com/html/synergy/"*/
+var templateBaseURL         = "https://mangoliciouz.github.io/Hyperion/";/*"http://themes.mediacreed.com/html/synergy/"*/
 var themeColor              = "#4803d0";
 var menuActive              = true;
 var menuHoverActive         = true; /* it will change to false if menuActive == true. If 'menuActive'
