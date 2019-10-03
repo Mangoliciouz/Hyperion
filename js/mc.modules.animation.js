@@ -19,6 +19,7 @@ var customPageStartURL      = "#home_layout_1.html";
 =======
 var customPageStartURL      = "#home.html";
 >>>>>>> parent of 033bfda... WIP
+var customPageStartURL      = "#home_layout_1.html";
 var customPageStartSide     = "none";
 var customPageStartType     = "slideshow";
 
