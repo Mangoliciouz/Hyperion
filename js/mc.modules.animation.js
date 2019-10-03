@@ -7,14 +7,14 @@
 
  /* start GENERAL CUSTOMIZATION PROPERTIES */
 var templateBaseURL         = "https://mangoliciouz.github.io/Hyperion/";/*"http://themes.mediacreed.com/html/synergy/"*/
-var themeColor              = "#d00355";
+var themeColor              = "#4803d0";
 var menuActive              = true;
 var menuHoverActive         = true; /* it will change to false if menuActive == true. If 'menuActive'
                                         is false and this true than on hover it will show the menu */
 var menuTextOutColor        = "#777777";
 
 var customPageStart         = false;
-var customPageStartURL      = "#portfolio.html";
+var customPageStartURL      = "#home.html";
 var customPageStartSide     = "none";
 var customPageStartType     = "full_width_gallery";
 
@@ -26,8 +26,8 @@ var contactFormDemo         = true; /* SET IT TO FALSE FOR CONTACT FORM TO WORK 
 /* start ready function */
 var menuTextOverColor       = "#FFFFFF"; /*change it when you use WHITE as theme color */
 var filterButtonsOverColor  = "#FFFFFF"; /*change it when you use WHITE as theme color */
-var newsMoreBtnOverColor    = "#D00355"; /*change it when you use WHITE as theme color */
-var newsTitleOverColor      = "#D00355"; /*change it when you use WHITE as theme color */
+var newsMoreBtnOverColor    = "#4803d0"; /*change it when you use WHITE as theme color */
+var newsTitleOverColor      = "#4803d0"; /*change it when you use WHITE as theme color */
 
 if( themeColor.toLocaleLowerCase() !=  "#ffffff"){
     newsMoreBtnOverColor = newsTitleOverColor = themeColor;
