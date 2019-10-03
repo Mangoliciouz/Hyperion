@@ -14,9 +14,13 @@ var menuHoverActive         = true; /* it will change to false if menuActive == 
 var menuTextOutColor        = "#777777";
 
 var customPageStart         = false;
-var customPageStartURL      = "#portfolio.html";
+<<<<<<< HEAD
+var customPageStartURL      = "#home_layout_1.html";
+=======
+var customPageStartURL      = "#home.html";
+>>>>>>> parent of 033bfda... WIP
 var customPageStartSide     = "none";
-var customPageStartType     = "full_width_gallery";
+var customPageStartType     = "slideshow";
 
 var phpUrlPath              = "php/contact_synergy.php";
 var contactFormDemo         = true; /* SET IT TO FALSE FOR CONTACT FORM TO WORK */
