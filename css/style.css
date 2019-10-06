@@ -117,11 +117,11 @@ body
 .smartphone-option-background,
 .smartphone-option-background-selected
 {
-	background-color:#4803d0;
+	background-color:#5ad0fd;
 }
 .thumb-selected img
 {
-	border-color:#4803d0;
+	border-color:#5ad0fd;
 }
 /* -------- END THEME COLOR SETUP ------------------ */
 
@@ -236,7 +236,7 @@ submenu holder has overflow hidden */
 	top: 68px;
 	height: 30px;
     width: 20px;
-	/*background-color:#4803d0;*/
+	/*background-color:#5ad0fd;*/
 	background-image:url(../assets/synergy_sprite.png);
 	background-repeat:no-repeat;
 	background-position: -274px -202px;
@@ -468,7 +468,7 @@ submenu holder has overflow hidden */
     height: 30px;
     width: 30px;
 }
-.audio-options-button-backg{ background-color: #4803d0; }
+.audio-options-button-backg{ background-color: #5ad0fd; }
 .audio-controls-backg{ background-color: #171717; }
 
 .audio-options-button-sign, .audio-prev-track-sign, .audio-play-track-sign, .audio-pause-track-sign,
@@ -576,11 +576,11 @@ footer
 	display:block;
 	width:100%;
 	height:100%;
-	/*outline: 0px solid #4803d0;*/
+	/*outline: 0px solid #5ad0fd;*/
 }
 /*#footer-social-holder ul li a:hover{
 	outline: 1px solid;
-	outline-color:#4803d0;
+	outline-color:#5ad0fd;
 }*/
 #footer-social-holder ul .twitter{ background-position:0 -100px; }
 #footer-social-holder ul .facebook{ background-position:-30px -100px; }
@@ -1118,7 +1118,7 @@ footer
     width: 0%;
     top: 0px;
     left: 0px;
-    background-color: #4803d0;
+    background-color: #5ad0fd;
     z-index: 2;
 }
 #standard-banner{
@@ -1238,7 +1238,7 @@ footer
 .home-layout-clients a
 {
 	margin: 10px 0px 10px 13px;
-	color:#4803d0;
+	color:#5ad0fd;
 	font-weight:normal;
 	text-decoration:none;
 	width: 166px;
@@ -2562,7 +2562,7 @@ h1, h2, h3, h4, h5, h6
 }
 .full-width-text-content-dropcaps span{
 	float: left;
-	color: #4803d0;
+	color: #5ad0fd;
 	font-size: 66px;
 	line-height:82%;
 	padding-right: 8px;
@@ -2782,7 +2782,7 @@ h1, h2, h3, h4, h5, h6
    	font-family:PT Sans;
 	font-weight: normal;
 	font-size:18px;
-	color:#4803d0;
+	color:#5ad0fd;
     position: relative;
     text-align: center;
     width: 100%;
