@@ -3078,6 +3078,9 @@ $(window).load(function(){
         thumbHolderClass.unbind("click");
         thumbHolderClass.click(
             function(){
+              if ($(thumbHolderClass).hasClass("no-content"))
+                return;
+
                 var index = $(thumbHolderClass).index(this);
                 columnsPreviewIndex = index;
                 if( moduleList != null ){
