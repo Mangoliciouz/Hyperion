@@ -3078,7 +3078,7 @@ $(window).load(function(){
         thumbHolderClass.unbind("click");
         thumbHolderClass.click(
             function(){
-              if ($(thumbHolderClass).hasClass("no-content"))
+              if ($(this).hasClass("no-content"))
                 return;
 
                 var index = $(thumbHolderClass).index(this);
