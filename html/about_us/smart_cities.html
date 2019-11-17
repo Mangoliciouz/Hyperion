@@ -1,0 +1,253 @@
+﻿<!doctype html>
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+	<title>Hyperion - Connecting People</title>
+
+	<meta name="description" content="" />
+	<meta name="author" content="MEDIACREED.COM" />
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Sans+Caption:400,700' rel='stylesheet' type='text/css' />
+
+        <!-- SCRIPT IE FIXES -->
+        <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!-- END SCRIPT IE FIXES-->
+
+
+        <!-- START TEMPLATE JavaScript load -->
+    	<script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="js/libs/modernizr.custom.min.js"></script>
+        <script type="text/javascript" src="js/libs/jquery.wipetouch.js"></script>
+
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBttxrYoBq8srteD7evmDqnaK6V2Uun42o&amp;sensor=true"></script>
+
+        <script type="text/javascript" src="js/libs/jquery.gmap.min.js"></script>
+        <script type="text/javascript" src="js/greensock/minified/TweenMax.min.js"></script>
+        <script type="text/javascript" src="js/libs/jquery.timer.js"></script>
+        <script type="text/javascript" src="js/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/libs/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript" src="js/mediacreed/scrollbar/mc.custom.list.js"></script>
+        <script type="text/javascript" src="js/mc.modules.animation.js"></script>
+        <link rel="stylesheet" href="js/video-js/video-js.min.css" media="screen" />
+        <script type="text/javascript" src="js/video-js/video.min.js"></script>
+        <!-- END TEMPLATE JavaScript load -->
+
+        <!--<script src="http://vjs.zencdn.net/c/video.js"></script>
+        Careful when using the online version because the destroy method throws an error.
+        Our version has the fix on destroy method. Until it updates we recommend using the JS file from the template.
+        -->
+        <script>
+            _V_.options.flash.swf = "js/video-js/video-js.swf";
+            _V_.options.techOrder = ["html5", "flash", "links"];
+            var params = {};
+            params.bgcolor = "#000000";
+            params.allowFullScreen = "true";
+            _V_.options.flash.params = params;
+
+        </script>
+</head>
+
+<body>
+
+<div class="main-template-loader"></div>
+
+<div id="template-wrapper">
+	<div id="menu-container"><!-- start #menu-container -->
+			<div class="menu-content-holder"><!-- start .menu-content-holder -->
+					<div class="menu-background"></div>
+					<div id="template-logo" class="template-logo" data-href="#home_layout_1.html"></div>
+					<div id="template-menu" class="template-menu" data-current-module-type="full_width_gallery" data-side="none" data-href="#home_layout_1.html"><!-- start #template-menu --><!-- start #template-menu -->
+							<!-- <div class="menu-option-holder">
+									<div id="menu-option-background" class="menu-option-background"> </div>
+									<div id="menu-option-text" class="menu-option-text">
+											<a href="#">HOME</a>
+											<div class="menu-option-sign">+</div>
+									</div>
+									<div class="sub-menu-holder">
+											<div class="sub-menu-option-holder" data-module-type="slideshow" data-side="none">
+													<div class="sub-menu-option-background"></div>
+													<div class="sub-menu-option-text"><a href="#home_layout_1.html" data-path-href="html/home/">Home Layout 1</a></div>
+											</div>
+											<div class="sub-menu-option-holder" data-module-type="home2" data-side="none">
+													<div class="sub-menu-option-background"></div>
+													<div class="sub-menu-option-text"><a href="#home_layout_2.html" data-path-href="html/home/">Home Layout 2</a></div>
+											</div>
+											<div class="sub-menu-option-holder" data-module-type="home3" data-side="none">
+													<div class="sub-menu-option-background"> </div>
+													<div class="sub-menu-option-text"><a href="#home_layout_3.html" data-path-href="html/home/">Home Layout 3</a></div>
+											</div>
+
+									</div>
+							</div> -->
+
+							<div class="menu-option-holder" data-module-type="slideshow" data-side="none">
+									<div id="menu-option-background" class="menu-option-background"> </div>
+									<div id="menu-option-text" class="menu-option-text"><a href="#home_layout_1.html" data-path-href="html/home/">HOME</a></div>
+							</div>
+
+							<div class="menu-option-holder" data-module-type="text_page" data-side="height">
+									<div id="menu-option-background" class="menu-option-background"> </div>
+									<div id="menu-option-text" class="menu-option-text"><a href="#about_us.html" data-path-href="html/about_us/">ABOUT US</a></div>
+							</div>
+
+							<div class="menu-option-holder" data-module-type="news" data-side="height">
+									<div id="menu-option-background" class="menu-option-background"> </div>
+									<div id="menu-option-text" class="menu-option-text"><a href="#news.html" data-path-href="html/news/">NEWS</a></div>
+							</div>
+
+							<div class="menu-option-holder" data-module-type="page_columns" data-side="custom">
+									<div id="menu-option-background" class="menu-option-background"> </div>
+									<div id="menu-option-text" class="menu-option-text"><a href="#3_columns_projects.html" data-path-href="html/our_projects/">SERVICES</a></div>
+							</div>
+
+							<!--<div class="menu-option-holder" data-module-type="page_columns" data-side="custom">
+									<div id="menu-option-background" class="menu-option-background"> </div>
+									<div id="menu-option-text" class="menu-option-text"><a href="#2_columns_projects.html" data-path-href="html/our_projects/">PAST PROJECTS</a></div>
+							</div>-->
+							<div class="menu-option-holder" data-module-type="contact" data-side="custom">
+									<div id="menu-option-background" class="menu-option-background"> </div>
+									<div id="menu-option-text" class="menu-option-text"><a href="#contact.html" data-path-href="html/contact/">CONTACT US</a></div>
+							</div>
+
+
+					</div><!-- end #template-menu -->
+					<div id="template-smpartphone-menu">
+							<select>
+									<option value="#">Navigate to...</option>
+									<option value="#home_layout_1.html">HOME</option>
+									<option value="#about_us.html">ABOUT US</option>
+									<option value="#news.html">NEWS</option>
+									<option value="#3_columns_projects.html">SERVICES</option>
+									<!--<option value="#2_columns_projects.html">PAST PROJECTS</option>-->
+									<option value="#contact.html">CONTACT</option>
+							</select>
+					</div>
+		<div id="audio-player" data-auto-play="false" data-player-opened="true" data-player-volume="0.6">
+							<div id="audio-items">
+									<div id="audio-track" data-src="assets/audio/anewbeginning" data-title="A New Beginning"></div>
+							</div>
+							<div id="audio-player-tooltip" class="opacity_0">
+									<div id="audio-tooltip-holder">
+											<div class="audio-tooltip-backg"></div>
+											<div class="audio-player-tooltip-title"><span></span></div>
+									</div>
+									<div class="audio-player-tooltip-hook"></div>
+							</div>
+							<div id="audio-player-holder">
+									<div id="audio-options-button">
+											<div class="audio-options-button-backg"></div>
+											<div class="audio-options-button-sign"></div>
+									</div>
+									<div id="audio-player-options-holder">
+											<div id="audio-prev-track">
+													<div class="audio-controls-backg"></div>
+													<div class="audio-prev-track-sign"></div>
+											</div>
+											<div id="audio-play-pause-track">
+													<div class="audio-controls-backg"></div>
+													<div class="audio-play-track-sign"></div>
+													<div class="audio-pause-track-sign"></div>
+											</div>
+											<div id="audio-next-track">
+													<div class="audio-controls-backg"></div>
+													<div class="audio-next-track-sign"></div>
+											</div>
+											<div id="audio-volume-speaker">
+													<div class="audio-controls-backg"></div>
+													<div class="audio-volume-on-sign"></div>
+													<div class="audio-volume-off-sign"></div>
+											</div>
+											<div id="audio-volume-bar">
+													<div class="audio-volume-bar-scrub-backg"></div>
+													<div class="audio-volume-bar-scrub-current"></div>
+											</div>
+									</div>
+							</div>
+					</div>
+					<footer>
+							<div id="footer-social">
+									<div id="footer-social-holder">
+											<ul>
+													<li class="facebook"><a href="https://www.facebook.com/Hyperion-Connect-103557937757091" target="_blank"></a></li>
+													<li class="flickr"><a href="https://www.linkedin.com/company/14006041" target="_blank"></a></li>
+													<li class="google"><a href="https://www.youtube.com/channel/UCTY_hHhwUtTG_-YfxXyey1g" target="_blank"></a></li>
+											</ul>
+									</div>
+							</div>
+							<div id="footer-text"><!-- start #footer-text -->
+									<div id="footer-copyright"><a href="#">&copy;2019 HYPERION CONNECT</a></div>
+							</div><!-- end #footer -->
+					</footer>
+			</div><!-- end .menu-content-holder-->
+
+			<div id="menu-hider">
+					<div id="menu-hider-background"></div>
+					<div id="menu-hider-icon"></div>
+			</div>
+	</div><!-- end #menu-container -->
+
+    <div id="module-container"><!-- start #module-container -->
+        <div id="module-background-holder" data-time="4">
+        	<img src="assets/media/about_us/about_us/backgroundAboutUs.jpg" onload="animateModuleBackground(this)" class="module-background" id="module-background" alt="" />
+			<div data-src="assets/media/about_us/about_us/backgroundAboutUs3.jpg"></div>
+            <div data-src="assets/media/about_us/about_us/backgroundAboutUs2.jpg"></div>
+        </div>
+        <div id="module-container-holder" class="module-position-lc"  data-id="module-position-lc">
+            <div id="module-text-page" class="module-about-us">
+            	<div id="module-wrapper">
+                    <div id="module-text-page-holder-about-us">
+                        <div class="title-holder">
+                        	<span class="title-text_normal">ABOUT US</span>
+                        </div>
+                        <div class="custom-separator"></div>
+                    	<!-- ONLY FOR MOBILE( used as back-up) :
+
+                            Set 'data-img-touch' bellow as a back-up(when using GIF)
+							Beacause GIF don't play on iPhone so you can show an alternative JPG image.
+
+                            If you don't use GIF's then please disregard this comment!
+                        -->
+                    	<div class="media-holder" data-img-touch="assets/media/about_us/about_us/about_image.jpg">
+
+                            <!-- YOU CAN USE animated GIF. Just replace the <img> src with a GIF -->
+                        	<img src="assets/media/about_us/about_us/about_image.jpg" width="100%" class="opacity_0" onload="animateThumb(this)"/>
+                        </div>
+                        <div class="custom-separator"></div>
+                        <div class="main-text-holder">
+                        	<p>Smart CIty Para 1</p>
+													<p>Smart City Para 2</p>
+													<p>Smart City Para 3</p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="module-scrollbar-holder">
+                <div id="module-scrollbar-background" class="opacity_4"></div>
+                <div id="module-scrollbar-dragger"></div>
+            </div>
+        </div>
+    </div><!-- end #module-container -->
+</div>
+
+<!-- START LOADING CONTAINER AND ANIMATION-->
+<div id="load-container"></div>
+<div id="loading-animation">
+	<img src="assets/loaders/loader.gif" width="16" height="11" alt="Synergy - loading animation"/>
+</div>
+<!-- END LOADING CONTAINER AND ANIMATION-->
+
+</body>
+</html>
