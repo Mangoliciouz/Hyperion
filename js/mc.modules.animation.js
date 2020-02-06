@@ -6,7 +6,7 @@
  **/
 
  /* start GENERAL CUSTOMIZATION PROPERTIES */
-var templateBaseURL         = "https://mangoliciouz.github.io/Hyperion/";/*"http://themes.mediacreed.com/html/synergy/"*/
+var templateBaseURL         = "https://mangoliciouz.github.io/Hyperion";/*"http://themes.mediacreed.com/html/synergy/"*/
 var themeColor              = "#5ad0fd";
 var menuActive              = true;
 var menuHoverActive         = true; /* it will change to false if menuActive == true. If 'menuActive'
@@ -3078,6 +3078,9 @@ $(window).load(function(){
         thumbHolderClass.unbind("click");
         thumbHolderClass.click(
             function(){
+              if ($(this).hasClass("no-content"))
+                return;
+
                 var index = $(thumbHolderClass).index(this);
                 columnsPreviewIndex = index;
                 if( moduleList != null ){
