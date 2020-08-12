@@ -6,7 +6,7 @@
  **/
 
  /* start GENERAL CUSTOMIZATION PROPERTIES */
-var templateBaseURL         = "https://mangoliciouz.github.io/Hyperion";/*"http://themes.mediacreed.com/html/synergy/"*/
+var templateBaseURL         = "https://hyperionconnect.com/";/*"http://themes.mediacreed.com/html/synergy/"*/
 var themeColor              = "#5ad0fd";
 var menuActive              = true;
 var menuHoverActive         = true; /* it will change to false if menuActive == true. If 'menuActive'
@@ -19,7 +19,7 @@ var customPageStartSide     = "none";
 var customPageStartType     = "slideshow";
 
 var phpUrlPath              = "php/contact_synergy.php";
-var contactFormDemo         = true; /* SET IT TO FALSE FOR CONTACT FORM TO WORK */
+var contactFormDemo         = false; /* SET IT TO FALSE FOR CONTACT FORM TO WORK */
  /* end   GENERAL CUSTOMIZATION PROPERTIES */
 
 
@@ -1868,7 +1868,7 @@ $(window).load(function(){
                                     },
                                     scrollwheel: false,
                                 	address: mapHolder.attr("data-address"),
-                                	zoom: 16,
+                                	zoom: 10,
                                 	markers:[{
                                 			latitude: mapHolder.attr("data-latitude"),
                                 			longitude: mapHolder.attr("data-longitude"),
