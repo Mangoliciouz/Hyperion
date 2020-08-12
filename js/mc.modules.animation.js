@@ -6,7 +6,7 @@
  **/
 
  /* start GENERAL CUSTOMIZATION PROPERTIES */
-var templateBaseURL         = "https://hyperionconnect.com/";/*"http://themes.mediacreed.com/html/synergy/"*/
+var templateBaseURL         = "https://mangoliciouz.github.io/Hyperion/";/*"http://themes.mediacreed.com/html/synergy/"*/
 var themeColor              = "#5ad0fd";
 var menuActive              = true;
 var menuHoverActive         = true; /* it will change to false if menuActive == true. If 'menuActive'
@@ -14,7 +14,7 @@ var menuHoverActive         = true; /* it will change to false if menuActive == 
 var menuTextOutColor        = "#777777";
 
 var customPageStart         = true;
-var customPageStartURL      = "#home_layout_1.html";
+var customPageStartURL      = "#about_us.html";
 var customPageStartSide     = "none";
 var customPageStartType     = "slideshow";
 
