@@ -14,7 +14,7 @@ var menuHoverActive         = true; /* it will change to false if menuActive == 
 var menuTextOutColor        = "#777777";
 
 var customPageStart         = true;
-var customPageStartURL      = "#about_us.html";
+var customPageStartURL      = "#home_layout_1.html";
 var customPageStartSide     = "none";
 var customPageStartType     = "slideshow";
 

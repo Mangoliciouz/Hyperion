@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+}
+
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+  
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+  
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+////////////////////////////////////////
+
+body { 
+  background: #000;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+  
+.overlay {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 95%;
+  max-width: 45em;
+  margin: auto auto 1em;
+  box-sizing: border-box;
+  padding: 2em;
+  line-height: 1.5;
+  text-align: center;
+  
+  :last-child { margin-bottom: 0; }
+
+  h1 {
+    font-size: 14pt;
+    font-weight: normal;
+    text-shadow: 0 0 .3em #000;
+    margin: 0 0 1em;
+  }
+
+  p {
+    font-size: 11pt;
+    text-shadow: 0 0 .3em #000;
+    margin: 1em 0;
+  }
+  a {
+    color: #fff;
+  }
+}
+
+code { font-family: monospace; }
+
+
+*{
+   border: 0;
+   margin: 0;
+   padding: 0;
+}
+
+.container{
+    width: 100%;
+    overflow:hidden;
+    display:block;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+.video{
+    width: 100%;
+    bottom:0px;
+    position:absolute;
+}
+</style>
+
+<head>
+
+
+
+</head>
+
+
+<body style="margin: 0; background-color:black;">
+
+
+
+<div class="video-container" id="video-cont-1"></div>
+
+<script>
+
+var desktopBrowser =  '<video autoplay loop="true" width="1280" height="720">' +
+    '<source type="video/mp4" src="desktop.mkv">' +
+  '</video>';
+
+var mobileBrowser =  '<video autoplay loop="true" width="1280" height="720">' +
+    '<source type="video/mp4" src="mobile.mkv">' +
+  '</video>';
+
+
+
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  document.getElementById("video-cont-1").innerHTML = mobileBrowser
+}else{
+  document.getElementById("video-cont-1").innerHTML = desktopBrowser
+}
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
